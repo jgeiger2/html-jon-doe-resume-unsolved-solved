@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('localhost:5551');
+  await page.goto('localhost:5552');
 });
 
 test('has the link tag set in the head', async ({ page }) => {

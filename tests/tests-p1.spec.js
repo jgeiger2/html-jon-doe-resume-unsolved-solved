@@ -1,6 +1,6 @@
 // @ts-check
 const { test, expect } = require("@playwright/test");
-const mainPageUrl = "http://localhost:5551/index.html";
+const mainPageUrl = "http://localhost:5552/index.html";
 const cleanArrFromEmptyItems = (arr) => arr.filter((item) => item !== "");
 
 test.beforeEach(async ({ page }) => {
